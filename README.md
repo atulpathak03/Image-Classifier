@@ -16,20 +16,7 @@ This is a simple deep learning project that uses a Convolutional Neural Network 
 - TensorBoard integration for training insights
 
 ---
-
-## ⚙️ Installation
-
-Run the project in Google Colab. Just follow these steps:
-
-1. Upload your `Files.zip` (with `happy/` and `sad/` images inside).
-2. Follow the Colab notebook step by step.
-
-Install required packages:
-```bash
-!pip install --upgrade opencv-python matplotlib
-
-
-🚀 Model Architecture
+##  🚀 Model Architecture
 Input: 256x256 RGB Image
 ↓
 Conv2D → ReLU → MaxPooling
@@ -41,3 +28,14 @@ Conv2D → ReLU → MaxPooling
 Flatten → Dense (256) → ReLU
 ↓
 Dense (1) → Sigmoid
+
+## ⚙️ Installation
+
+Run the project in Google Colab. Just follow these steps:
+
+1. Upload your `Files.zip` (with `happy/` and `sad/` images inside).
+2. Follow the Colab notebook step by step.
+
+Install required packages:
+```bash
+!pip install --upgrade opencv-python matplotlib
