@@ -17,6 +17,7 @@ This is a simple deep learning project that uses a Convolutional Neural Network 
 
 ---
 ##  🚀 Model Architecture
+```bash
 Input: 256x256 RGB Image
 ↓
 Conv2D → ReLU → MaxPooling
@@ -28,7 +29,7 @@ Conv2D → ReLU → MaxPooling
 Flatten → Dense (256) → ReLU
 ↓
 Dense (1) → Sigmoid
-
+```
 ## ⚙️ Installation
 
 Run the project in Google Colab. Just follow these steps:
